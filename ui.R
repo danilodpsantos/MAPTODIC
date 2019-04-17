@@ -18,7 +18,7 @@ shinyUI(fluidPage(
 
     column(3,
       align = "middle",
-      fileInput("file", "Escolha o mapa:",
+      fileInput("file", "Escolha o arquivo:",
         multiple = FALSE,
         accept = c(".pdf")
       )

@@ -14,12 +14,6 @@ ler_libs <- function(packages){
 
 ler_libs(c("shiny", "shinyjs", "xlsx", "shinythemes", "textreadr"))
 
-library(shiny)
-library(shinyjs)
-library(xlsx)
-library(shinythemes)
-library(textreadr)
-
 # Define UI for application that draws a histogram
 shinyUI(fluidPage(
   theme = shinytheme("cerulean"),

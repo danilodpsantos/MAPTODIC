@@ -12,7 +12,7 @@ ler_libs <- function(packages){
   invisible(sapply(packages, require, character.only = TRUE))
 }
 
-ler_libs(c("shiny", "shinyjs", "xlsx", "shinythemes", "textreadr"))
+ler_libs(c("shiny", "shinyjs", "xlsx", "shinythemes", "textreadr", "stringr"))
 
 # Define UI for application that draws a histogram
 shinyUI(fluidPage(
